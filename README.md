@@ -1,16 +1,6 @@
 # redis-image-deploy-k8s
 **DEPLOYING A REDIS BASED DOCKER IMAGE TO KUBERNETES  
-<br/>Problem statement**
 
-Your organization wants to use Redis in a Kubernetes cluster for the data storage and caching purpose. The development team has asked you to create a Redis-based Docker image using a Dockerfile and deploy this image on a Kubernetes cluster.
-
-You have also been asked to publish this image on your organization's Docker Hub account so that other team members can also access this image.
-
-&nbsp;Core tools used:
-
-- Docker CLI: To create the Docker image using a Dockerfile
-- Docker Hub: To publish the image
-- Kubectl: To deploy the image on a Kubernetes cluster
 
 **Purpose**
 
