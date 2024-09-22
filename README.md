@@ -218,11 +218,11 @@ sudo apt install -y kubelet kubeadm kubectl
 ```
 \[plugins."io.containerd.grpc.v1.cri".containerd.runtimes.runc\]
 
-&nbsp; ...
+ ...
 
-&nbsp; \[plugins."io.containerd.grpc.v1.cri".containerd.runtimes.runc.options\]
+ \[plugins."io.containerd.grpc.v1.cri".containerd.runtimes.runc.options\]
 
-&nbsp;   SystemdCgroup = true
+  SystemdCgroup = true
 ```
 `sudo systemctl restart containerd`
 
@@ -266,19 +266,19 @@ kind: Pod
 
 metadata:
 
-&nbsp;name: redis-pod
+name: redis-pod
 
 spec:
 
-&nbsp;containers:
+containers:
 
-&nbsp;  - name: redis-container
+  - name: redis-container
 
-&nbsp;    image: rishabhmanhas/redis:latest
+    image: rishabhmanhas/redis:latest
 
-&nbsp;    ports:
+    ports:
 
-&nbsp;    - containerPort: 6379
+    - containerPort: 6379
 ```
 - Use kubectl to deploy the Redis pod.
 
